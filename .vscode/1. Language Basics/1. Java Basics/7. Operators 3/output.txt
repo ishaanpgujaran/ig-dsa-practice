@@ -1,0 +1,12 @@
+#Ishaan Approach - Optimal
+___________________________
+Number 10 is EVEN.
+
+Number 19 is ODD.
+
+
+#Shivani Approach
+___________________________
+Number 2 is EVEN.
+
+Number 3 is ODD.

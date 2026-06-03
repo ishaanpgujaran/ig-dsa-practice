@@ -1,0 +1,7 @@
+Before Swapping :
+a = 10
+b = 9
+_____________________
+After Swapping :
+a = 9
+b = 10
