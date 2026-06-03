@@ -1,0 +1,35 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+   {
+     "label": "Compile and Run Java with I/O files",
+     "type": "shell",
+     "command": "sh",
+     "options": {
+       "cwd": "${fileDirname}"
+     },
+     "args": [
+       "-c",
+       "javac \"${fileBasename}\" && java \"${fileBasenameNoExtension}\" <input.txt> output.txt"
+     ],
+     "group": {
+       "kind": "build",
+       "isDefault": true
+     },
+     "presentation": {
+       "reveal": "never"
+     },
+     "problemMatcher": {
+       "owner": "java",
+       "fileLocation": ["relative", "${workspaceFolder}"],
+       "pattern": {
+         "regexp": "^(.*\\.java):(\\d+):\\s+(error):\\s+(.*)$",
+         "file": 1,
+         "line": 2,
+         "severity": 3,
+         "message": 4
+       }
+     }
+   }
+ ]
+}
