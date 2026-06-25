@@ -1,0 +1,29 @@
+Node IN-MUM-109 created in Mumbai Successfully.
+
+Node JP-TOK-910 created in Tokyo Successfully.
+
+Node 1
+_________ Node Info _________
+Node ID : IN-MUM-109
+Region : Mumbai
+Allocated Bandwidth : 20.0 Gbps
+Current Load : 0.0 %
+
+Node 2
+_________ Node Info _________
+Node ID : JP-TOK-910
+Region : Tokyo
+Allocated Bandwidth : 10.0 Gbps
+Current Load : 0.0 %
+
+_________ Global CDN Stats _________
+Total Active Nodes : 2
+Global Bandwidth Allocated : 30.0
+
+_________ Global CDN Stats _________
+Total Active Nodes : 2
+Global Bandwidth Allocated : 30.0
+
+Error: Load Percentage must be between 0.0 to 100.0.
+
+Node IN-MUM-109 Current Load Successfully Updated to 55.0
