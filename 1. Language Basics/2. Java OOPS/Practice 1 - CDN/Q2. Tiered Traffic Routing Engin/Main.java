@@ -50,7 +50,7 @@ class EdgeNode {
 
     //Setter
     // First Thought : public String setNode(String nodeID, double currentLoadPercentage) But this is redudant as nodeID passing again)
-    // Correction Naminng Convention should be proper not setNode as only modifying clp
+    // Correction Naming Convention should be proper not setNode as only modifying clp
     public void setLoadPercentage(double currentLoadPercentage){
         //Validation First using Guard Clause
         if (currentLoadPercentage < 0.0 || currentLoadPercentage > 100.0) {
@@ -92,7 +92,7 @@ class EdgeNode {
 }
 
 
-//Child Class - Premium Extens Base 
+//Child Class - Premium Extends Base 
 class PremiumExpressNode extends EdgeNode {
 
     // Constructor calling the Parent Constructor
